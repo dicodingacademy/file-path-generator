@@ -17,7 +17,7 @@ SKIP_DIRS=(
   # Docs build
   ".docusaurus" "docs/.vuepress/dist"
   # CI/CD / Infra
-  ".github" ".gitlab" ".terraform"
+  ".github" ".gitlab" ".terraform", ".git"
 )
 
 echo "[" > "$OUTPUT_FILE"
